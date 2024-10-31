@@ -1,0 +1,177 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+body{
+    background-color: rgb(202, 243, 243);
+    background-image: url(resources/image-background1.jpg);
+    background-size: 100%;
+}
+.my-button1{
+    background-color:white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 24px;
+    border-radius:23px;
+    border-color: rgb(2, 200, 200);
+    color: rgb(2, 200, 200);
+    margin-left:90px;
+    border-style: solid;
+    transition: background-color 0.6s,
+      color 0.6s,
+      padding-top 0.6s,
+      padding-bottom 0.6s,
+      padding-right 0.6s,
+      padding-left 0.6s,
+      font-size 0.6s,
+      opacity 0.6s;
+  }
+
+  .my-button1:hover{
+    background-color: rgb(2, 200, 200);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 30px;
+    border-radius: 52px;
+    opacity: 0.9;
+  }
+  .my-button1:active {
+    opacity: 0.7;
+  }   
+.my-button{
+    background-color:white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-right: 16px;
+    padding-left: 16px;
+    font-size: 24px;
+    border-radius:23px;
+    border-color: rgb(2, 200, 200);
+    color: rgb(2, 200, 200);
+    margin-left:20px;
+    border-style: solid;
+    transition: background-color 0.6s,
+      color 0.6s,
+      padding-top 0.6s,
+      padding-bottom 0.6s,
+      padding-right 0.6s,
+      padding-left 0.6s,
+      font-size 0.6s,
+      opacity 0.6s;
+  }
+
+  .my-button:hover{
+    background-color: rgb(2, 200, 200);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 18px;
+    padding-left: 18px;
+    font-size: 30px;
+    border-radius: 52px;
+    opacity: 0.9;
+  }
+  .my-button:active {
+    opacity: 0.7;
+  }
+#text {
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+.my-picture{
+    height: 640px;
+    width: 440px;
+    margin-left: 70px;
+    border: 2px solid hsl(226, 84%, 78%);
+    box-sizing: border-box;
+}
+.heaeder{
+    font-size: 50px;
+    font-family: serif;
+    text-align: center;
+    margin-top: 90px;
+}
+.lifestyle{
+    margin-left: 17%;
+    margin-top: 60px;
+}
+.cstu{
+    font-size: 70px;
+    position: absolute;
+    left: 900px;
+    bottom: 470px;
+}
+.maintext{
+    font-size: 20px;
+    position: absolute;
+    font-family: sans-serif;
+    text-align: left;
+    left: 650px;
+    top: 270px;
+    padding-right: 70px;
+}
+.text-below li {
+    margin-left: 20px;
+    margin-left: 10px;
+}
+.text-moti{
+    font-family: serif;
+    color: rgb(255, 255, 255);
+    font-size: 35px; 
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 700px;
+}
+.emoji{
+    position: absolute;
+}
+.im-nin{
+    height: 290px;
+    width: auto;
+    bottom: 255px;
+    position: relative;
+}
+.im-im{
+    height: 300px;
+    width: auto;
+    left: 940px;
+    bottom: 255px;
+    position: relative;
+}
+.video{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    box-sizing: border-box;
+    position: relative;
+    left: 370px;
+    top: 420px;
+}
+#linkF{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: block;
+    margin-top: 20px;   
+    color: #ffffff; 
+}
+#linkJ{
+    position: absolute;
+    top: 0;
+    left: 56%;
+    display: block;
+    margin-top: 20px;   
+    color: #ffffff;
+}
