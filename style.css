@@ -174,4 +174,38 @@ body{
     display: block;
     margin-top: 20px;   
     color: #ffffff;
+} 
+@media (max-width: 768px){
+    #text{
+        font-size: 1.5rem;
+    }
+    .heaeder{
+        font-size: 1.5rem;
+    }
+    .cstu{
+        font-size: 1.5rem;
+    }.text-moti{
+        font-size: 1.5rem;
+    }
+    .maintext{
+        font-size: 1rem;
+    }
+    
+}
+@media (max-width: 360x){
+    #text{
+        font-size: 0.8rem;
+    }
+    .heaeder{
+        font-size: 0.8rem;
+    }
+    .cstu{
+        font-size: 0.8rem;
+    }.text-moti{
+        font-size: 0.8rem;
+    }
+    .maintext{
+        font-size: 0.5rem;
+    }
+    
 }
